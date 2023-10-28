@@ -27,9 +27,10 @@ input {
   padding-inline: 0.25rem;
 }
 .inputNumber {
-  padding: 1rem 0.25rem;
-  width: 2.5rem;
+  padding: 1rem 0;
+  width: 3.5rem;
   border: 2px solid black;
+  text-align: center;
 }
 h1 {
   font-family: Orbitron;
