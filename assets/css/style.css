@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Orbitron;
+  src: url(../fonts/Orbitron-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  margin-top: 15rem;
+  margin-inline: auto;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+input {
+  padding-inline: 0.25rem;
+}
+.inputNumber {
+  padding: 1rem 0.25rem;
+  width: 2.5rem;
+  border: 2px solid black;
+}
+h1 {
+  font-family: Orbitron;
+  margin-top: 1rem;
+  text-align: center;
+}
